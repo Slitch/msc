@@ -1,0 +1,25 @@
+---
+---
+// Custom.scss
+
+@import "main";
+
+// Option A: Include all of Bootstrap
+
+// Required
+
+
+@import "bootstrap/bootstrap";
+// Add custom code after this
+
+
+
+@media only screen and (max-width: 481px) {
+  .display-3 {
+      font-size: 3.0rem;
+  }
+}
+
+.navbar-nav .nav-link {
+    padding-left: 8px;
+}
