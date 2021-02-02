@@ -20,11 +20,16 @@ defaults:
       layout: "post"
   - scope:
       path: ""
+      type: "jumbotron"
+    values:
+      layout: "jumbotron"
+  - scope:
+      path: ""
     values:
       layout: "default"
 
-# sass:
-#  style: compressed
+sass:
+  style: compressed
 
 plugins:
   - jekyll-feed

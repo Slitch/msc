@@ -1,17 +1,19 @@
 ---
+layout: jumbotron
 # front matter tells Jekyll to process Liquid
 title: Home
+jumbotron_header: "Totalløsninger til laboratoriet"
+jumbotron_text: "MSCI er specialiseret i salg, service og support af udstyr til chromatografi, massespektrometri og automatiseret prøveforberedelse."
 ---
   <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="jumbotron">
+  <!-- <div class="jumbotron">
     <div class="container">
-      <h1 class="display-3 text-responsive">Totalløsninger til laboratoriet</h1>
-      <p>MSCI er specialiseret i salg, service og support af udstyr til chromatografi, massespektrometri og automatiseret prøveforberedelse.</p>
+      <h1 class="display-3 text-responsive">{{ page.jumbotron_header }}</h1>
+      <p>{{ page.jumbotron_text }}</p>
       <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
     </div>
-  </div>
+  </div> -->
 
-  <div class="container">
     <!-- Example row of columns -->
     <div class="row">
       <div class="col-md-4">
@@ -30,7 +32,3 @@ title: Home
         <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div>
     </div>
-
-    <hr>
-
-  </div> <!-- /container -->
